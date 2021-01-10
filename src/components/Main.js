@@ -115,7 +115,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="POST" action="webform.php">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -137,7 +137,7 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <ul className="icons">
+          {/* <ul className="icons">
             <li>
               <a
                 href="https://twitter.com/HuntaroSan"
@@ -164,7 +164,7 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
-          </ul>
+          </ul> */}
           {close}
         </article>
       </div>
