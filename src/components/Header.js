@@ -5,7 +5,7 @@ import image04 from '../images/image04.png'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span><img src={image04} alt="" width=20% height=auto /></span>
+      <span><img src={image04} alt="" width="100%" height="100%" /></span>
     </div>
     <div className="content">
       <div className="inner">
