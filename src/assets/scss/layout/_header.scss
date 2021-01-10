@@ -63,6 +63,7 @@
   }
 
   .logo {
+    background: rgba(0, 0, 0, 0.9);
     width: 5.5rem;
     height: 5.5rem;
     line-height: 5.5rem;
@@ -82,6 +83,7 @@
     border-top-width: _size(border-width);
     border-bottom-width: _size(border-width);
     max-width: 100%;
+    background: rgba(0, 0, 0, 0.9);
 
     .inner {
       @include vendor(
@@ -128,6 +130,7 @@
         }
 
         button {
+          background: rgba(0, 0, 0, 0.9);
           display: block;
           min-width: 7.5rem;
           height: 2.75rem;
