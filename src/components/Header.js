@@ -1,20 +1,19 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import image04 from '../images/image04.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span><img src={image04} alt="" width=20% height=auto /></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>A MANAGEMENT CONSULTANCY.</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          We help enterprises become more agile, specialising in transformation 
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          and optimisation of the processes within the PMO and adjacent spaces.
         </p>
       </div>
     </div>
@@ -35,7 +34,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Pmo
           </button>
         </li>
         <li>
