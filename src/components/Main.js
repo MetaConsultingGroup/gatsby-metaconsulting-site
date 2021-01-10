@@ -96,16 +96,18 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Welcome, let's talk!
+            Let's talk!
           </p>
           <p>
             You can easily book a free consultation with us using this Calendly Link.
+          </p>
+          <p> <a href="https://calendly.com/metaconsulting/15min">https://calendly.com/metaconsulting/15min</a>
           </p>
           <p>
             For other questions and queries you can contact us at:
           </p>
           <p>
-            <a href="mailto:hello@metaconsultinggroup.org">hello@metaconsultinggroup.org</a>
+            <a href="mailto:info@metaconsulting.group">info@metaconsulting.group</a>
           </p>
           {close}
         </article>
