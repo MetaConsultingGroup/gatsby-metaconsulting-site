@@ -13,7 +13,7 @@ const Header = props => (
         <p>
           We help enterprises become more agile, specialising in transformation 
           <br />
-           and optimisation of the processes within the PMO and adjacent spaces.
+           &nbsp;and optimisation of the processes within the PMO and adjacent spaces.
         </p>
       </div>
     </div>
