@@ -46,13 +46,15 @@ class Main extends React.Component {
           <h3>PMO role</h3>
           <p>
             Providing an enterprise level project management related guidance and services and serving as a project management best practices repository and center of excellence
-          <br>
+          </p>
+          <br/>
+          <p>
             How does it help? 
             It controls rising costs associated with projects and resourcing,
             it streamlines and simplifies processes, it increases the alignment between projects and business initiatives, it maximize use of resources and personnel, it provides better leverage past project experiences into new and upcoming projects
             and finally it can provide a “health check” to keep projects on track.
           </p>
-          <br>
+          <br/>
           <button
             onClick={() => {
               props.onOpenArticle('about')
