@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">About Us</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -47,7 +47,6 @@ class Main extends React.Component {
           <p>
             Providing an enterprise level project management related guidance and services and serving as a project management best practices repository and center of excellence
           </p>
-          <br/>
           <p>
             How does it help? 
             It controls rising costs associated with projects and resourcing,
@@ -56,10 +55,7 @@ class Main extends React.Component {
           </p>
           <br/>
           <button
-            onClick={() => {
-              props.onOpenArticle('about')
-              }}
-            >
+             onclick="location.href='https://calendly.com/metaconsulting/30min'" type="button">
             Book Us
           </button>
           {close}
@@ -72,25 +68,27 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Our Case Studies</h2>
+          <h2 className="major">Services</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <h3>Consultancy</h3>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            We offer to come in, analyze and report, then finally give you advice and material to implement.
           </p>
+          <h3>Internal Project Manager</h3>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            We can work with your people on selected projects and show them how to deliver.
           </p>
+          <h3>Internal Project Management Office</h3>
+          <p>
+            We will not only oversee all the projects but will also implement and establish practices and projects that will allow for long lasting change and efficiency.
+          </p>
+          <br/>
+          <button
+             onclick="location.href='https://calendly.com/metaconsulting/30min'" type="button">
+            Book Us
+          </button>
           {close}
         </article>
 
@@ -111,7 +109,7 @@ class Main extends React.Component {
           <p>
             You can easily book a free consultation with us using this Calendly Link.
           </p>
-          <p> <a href="https://calendly.com/metaconsulting/15min">https://calendly.com/metaconsulting/15min</a>
+          <p> <a href="https://calendly.com/metaconsulting/30min">https://calendly.com/metaconsulting/30min</a>
           </p>
           <p>
             For other questions and queries you can contact us at:
