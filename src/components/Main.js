@@ -54,10 +54,7 @@ class Main extends React.Component {
             and finally it can provide a “health check” to keep projects on track.
           </p>
           <br/>
-          <button
-             onclick="location.href='https://calendly.com/metaconsulting/30min'" type="button">
-            Book Us
-          </button>
+          <a href="https://calendly.com/metaconsulting/30min"><button>Book Us</button></a>
           {close}
         </article>
 
@@ -85,10 +82,7 @@ class Main extends React.Component {
             We will not only oversee all the projects but will also implement and establish practices and projects that will allow for long lasting change and efficiency.
           </p>
           <br/>
-          <button
-             onclick="location.href='https://calendly.com/metaconsulting/30min'" type="button">
-            Book Us
-          </button>
+          <a href="https://calendly.com/metaconsulting/30min"><button>Book Us</button></a>
           {close}
         </article>
 
@@ -107,9 +101,7 @@ class Main extends React.Component {
             Let's talk!
           </p>
           <p>
-            You can easily book a free consultation with us using this Calendly Link.
-          </p>
-          <p> <a href="https://calendly.com/metaconsulting/30min">https://calendly.com/metaconsulting/30min</a>
+            You can easily book a free consultation with us using the Calendly button down below.
           </p>
           <p>
             For other questions and queries you can contact us at:
@@ -117,6 +109,7 @@ class Main extends React.Component {
           <p>
             <a href="mailto:info@metaconsulting.group">info@metaconsulting.group</a>
           </p>
+          <a href="https://calendly.com/metaconsulting/30min"><button>Calendly Appointment</button></a>
           {close}
         </article>
 
