@@ -32,26 +32,34 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <h3>First Order Thinking </h3>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            We understand the true nature of the problems you are facing. More and more projects being onboarded than you can handle
+            and being ill equipped to be able to map these out and keep governance and efficiency in line. 
+            We help you put out these fires, and make you feel in control instead of keeping your head barely above water.
           </p>
+          <h3>An Internal PMO</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            With an internal PMO we provide a team that implements enterprise level entities with the ability to succeed and reliably achieve
+            results across the organization’s entire project portfolio. Thus, making project management a true asset and even a competitive advantage of the company’s operations.
           </p>
+          <h3>PMO role</h3>
+          <p>
+            Providing an enterprise level project management related guidance and services and serving as a project management best practices repository and center of excellence
+          <br>
+            How does it help? 
+            It controls rising costs associated with projects and resourcing,
+            it streamlines and simplifies processes, it increases the alignment between projects and business initiatives, it maximize use of resources and personnel, it provides better leverage past project experiences into new and upcoming projects
+            and finally it can provide a “health check” to keep projects on track.
+          </p>
+          <br>
+          <button
+            onClick={() => {
+              props.onOpenArticle('about')
+              }}
+            >
+            Book Us
+          </button>
           {close}
         </article>
 
@@ -62,7 +70,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Our Case Studies</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
