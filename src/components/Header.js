@@ -9,7 +9,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>A MANAGEMENT CONSULTANCY.</h1>
+        <h1>A BUSINESS DEVELOPMENT & MANAGEMENT AGENCY.</h1>
         <p>
           We help enterprises become more agile, specialising in transformation 
           <br />
