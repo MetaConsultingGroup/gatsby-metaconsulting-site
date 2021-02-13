@@ -53,6 +53,10 @@ class Main extends React.Component {
             it streamlines and simplifies processes, it increases the alignment between projects and business initiatives, it maximize use of resources and personnel, it provides better leverage past project experiences into new and upcoming projects
             and finally it can provide a “health check” to keep projects on track.
           </p>
+          <h3>Business Development</h3>
+          <p>
+            Given that we specialize in growing and optimizing businesses, we also provide high quality high ticket B2B clients through cold email. We know this is a common pain point for many businesses so we have spent significant R&D to develop the current systems we have in place.
+          </p>
           <br/>
           <a href="https://calendly.com/metaconsulting/30min"><button>Book Us</button></a>
           {close}
@@ -80,6 +84,10 @@ class Main extends React.Component {
           <h3>Internal Project Management Office</h3>
           <p>
             We will not only oversee all the projects but will also implement and establish practices and projects that will allow for long lasting change and efficiency.
+          </p>
+          <h3>Business Development & Client Acquisition</h3>
+          <p>
+            We offer B2B lead finder capabilities, using the latest and greatest in marketing technology.  
           </p>
           <br/>
           <a href="https://calendly.com/metaconsulting/30min"><button>Book Us</button></a>
