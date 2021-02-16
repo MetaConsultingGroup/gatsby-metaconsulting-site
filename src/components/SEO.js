@@ -3,10 +3,10 @@ import Helmet from 'react-helmet';
 
 const SEO_DATA = {
   description: '',
-  title: 'CometLeads',
+  title: 'MetaConsulting',
   url: '',
-  author: 'CometLeads',
-  keywords: ['CometLeads', 'email', 'leads', 'cold email', 'comet leads', 'cold email outreach', 'find clients'],
+  author: 'MetaConsulting',
+  keywords: ['Metaconsulting', 'email', 'leads', 'cold email', 'Metaconsulting group', 'Meta consulting group', 'Metaconsultinggroup'],
   img: '',
   twitterId: '',
   facebookId: '',
